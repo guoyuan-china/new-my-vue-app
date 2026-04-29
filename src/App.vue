@@ -1,21 +1,24 @@
+<template>
+
+<!--  <header>-->
+<!--    <img alt="Vue logo" class="logo" src="./assets/appLogo.jpg" width="200" height="118" />-->
+
+<!--    <div class="wrapper">-->
+<!--      <HelloWorld msg="Hello World!" />-->
+<!--    </div>-->
+<!--  </header>-->
+
+  <main>
+<!--    <TheWelcome />-->
+      <router-view></router-view>
+  </main>
+</template>
+
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
-<template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/appLogo.jpg" width="200" height="118" />
-
-    <div class="wrapper">
-      <HelloWorld msg="Hello World!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
-</template>
 
 <style scoped>
 header {

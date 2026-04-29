@@ -6,12 +6,15 @@ import WelcomeItem from './WelcomeItem.vue'
 // import CommunityIcon from './icons/IconCommunity.vue'
 // import SupportIcon from './icons/IconSupport.vue'
 
-const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
+// const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
 <template>
+
     <div>
-        <h2>future</h2>
+<!--        <h2>future</h2>-->
+<!--        <div><button @click="goFuture">Step into the Future</button></div>-->
+        <router-link to="/mytestpage">Step into the Future</router-link>
     </div>
 <!--  <WelcomeItem>-->
 <!--    <template #icon>-->
